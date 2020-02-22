@@ -1,0 +1,174 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container
+{
+  width: 1140px;
+  margin: 0 auto;
+}
+li{
+  list-style-type: none;
+}
+ul.menu
+{
+  display: flex;
+  justify-content: space-between;
+}
+header
+{
+  height: 67px;
+  width: 100%;
+  background: #212121;
+  padding-top: 30px;
+  margin-top: -65px;
+  z-index:1000;
+  position: fixed;
+}
+ul.menu a
+{
+
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+  
+}
+ul.menu li
+{
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+ul.menu li:last-child
+{
+  border: none;
+}
+
+.under_header
+{
+  background: url("pictures/2-layers.png");
+ position: relative;
+ min-height: 100vh;
+background-size: cover;
+  
+}
+.opacity
+{
+  
+  min-height: 84px;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  padding-top: 16px;
+}
+.some
+{
+
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.some span
+{
+
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+.some_text
+{
+     font-family: "Roboto - Bold";
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 67px;
+
+}
+.some_text span
+{
+
+  font-family: Roboto;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: "Roboto - Bold";
+
+}
+.under_some_text
+{
+  text-align: center;
+ margin-top: 23px;  
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 24px;
+}
+.picture_send
+{
+  display: inline-block;
+ text-align: center;
+ margin-top: 100px;
+ margin-left: 50%;
+  transform:translateX(-50%);
+}
+
+body
+{
+  margin-top: 50px;
+}
+.cond
+{
+  display: block;
+  text-align: center;
+  
+
+}
+.thirst
+{
+  min-height: 100vh;
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+.thirst .night
+{
+
+  color: #222222;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 38px;
+}
+.text_with_picture
+{
+  /* Style for "Никаких на" */
+   min-height: : 140px;
+color: #202020;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+line-height: 21px;
+/* Text style for "Стоимость" */
+font-family: "Roboto Light";
+font-weight: 300;
+
+}
+.text_with_picture span
+{
+        color: #1eacc7;
+      font-family: "Roboto - Regular";
+      font-size: 17px;
+      font-weight: 400;
+}
+
+.joke
+{
+  margin-top: 40px;
+}
